@@ -1,0 +1,17 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+#btn-styled {
+  border: 2px solid #000;
+  background-color: transparent;
+  margin-top: 20px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
