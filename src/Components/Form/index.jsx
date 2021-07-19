@@ -22,9 +22,10 @@ const Form = () => {
   };
 
   return (
-    <div>
+    <form>
       <input
         type="file"
+        name="file"
         onChange={(e) => {
           setFile(e.target.files[0]);
         }}
@@ -32,7 +33,7 @@ const Form = () => {
       <button id="btn-styled" onClick={uploadFile}>
         Upload
       </button>
-    </div>
+    </form>
   );
 };
 
